@@ -3,7 +3,7 @@ import java.io.*;
 
 public class LinkedList implements Iterable, Serializable {
 
-	private class ListNode implements Serializable {
+	private static class ListNode implements Serializable {
 		public Object data;
 		public ListNode next;		//listnode inner class fields
 		public ListNode prev;
